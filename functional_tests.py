@@ -38,7 +38,7 @@ class NewVisitorTest(unittest.TestCase):
         input_box.send_keys(Keys.ENTER)
 
         self.check_for_row_in_list_table('1: Buy peacock feathers')
-        self.check_for_row_in_list_table('2: Use peacock feathers to fly')
+        self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
 
 
 if __name__ == '__main__':
